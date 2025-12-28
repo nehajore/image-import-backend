@@ -4,3 +4,4 @@ python-dotenv
 requests
 sqlalchemy
 google-api-python-client
+boto3
