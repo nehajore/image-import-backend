@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Import System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>📂 Google Drive Image Import</h1>
+
+  <div class="import-box">
+    <input
+      type="text"
+      id="folderUrl"
+      placeholder="Paste Google Drive Folder URL"
+    />
+
+    <!-- ✅ ID ADDED HERE -->
+    <button id="importBtn" onclick="importImages()">Import Images</button>
+
+    <p id="status"></p>
+  </div>
+
+  <h2>🖼 Imported Images</h2>
+
+  <button onclick="loadImages()">Refresh Images</button>
+
+  <div id="imageList" class="image-grid"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
